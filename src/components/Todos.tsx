@@ -1,6 +1,7 @@
 import React from "react";
-import Todo from "../models/Todo";
+
 import TodoItem from "./TodoItem";
+import Todo from "../models/Todo";
 
 const Todos: React.FC<{ items: Todo[] }> = (props) => {
   return (
@@ -11,4 +12,5 @@ const Todos: React.FC<{ items: Todo[] }> = (props) => {
     </ul>
   );
 };
+
 export default Todos;
